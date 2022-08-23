@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programacion orientada a objetos</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">no soy original, me copio de Mar</a>
+        </div>
+    </nav>
+    
+    <div class="container mt-3 m-0">
+        <div class="row">
+
+            <div class="col-lg-4 mb-2">
+                <h4>Forma 1</h4>
+                <div class="mb-3">
+                    <label class="form-label">Kilometraje</label>
+                    <input placeholder="Ingrese el kilometraje" id="inp_km" class="form-control" type="text">
+                </div>
+                <button id="btn_mostrar" class="btn btn-secondary">Mostrar</button>
+            </div>
+
+            <div class="col-lg-4 ml-2">
+                <h4>Forma 2</h4>
+                <div class="mb-3">
+                    <label class="form-label">Marca</label>
+                    <select id="slt_marca" class="form-select">
+                        <option value="-1" disabled selected>Seleccione una marca</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Peugeot">Peugeot</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                    </select>
+                </div>
+                <button id="btn_aceptar" class="btn btn-secondary">Aceptar</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
