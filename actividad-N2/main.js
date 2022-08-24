@@ -1,4 +1,4 @@
-import Pitagoras from "./pitagoras.js";
+import Pitagoras from "./pitagoras.js"; 
 
 function resolverHipotenusa(){
     //creamos la instancia de la clase

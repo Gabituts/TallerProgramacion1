@@ -59,4 +59,4 @@ const consumir_api = async() => {
     document.getElementById("lista_publicaciones").innerHTML = itemsTotales.join("")
 
 }
-consumir_api()
+consumir_api() 
