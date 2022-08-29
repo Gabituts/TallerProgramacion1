@@ -14,12 +14,13 @@ export default class Criptomoneda{
 
         datos_crypto.forEach(element => {
             
+            let simbolo = element.symbol
             let fila = `
             <tr class="table">
                 <td>${element.market_cap_rank}</td>
                 <td><img src="${element.image}" width="100" height="100"></td>
                 <td>${element.name}</td>
-                <td>${element.symbol}</td>
+                <td>${simbolo.toUpperCase()}</td>
                 <td>${element.current_price}</td>
                 <td>${element.total_volume}</td>
 
